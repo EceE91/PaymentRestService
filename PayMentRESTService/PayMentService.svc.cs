@@ -10,7 +10,7 @@ namespace PayMentRESTService
     
     public class PayMentService : IPayMentService
     {
-        //concrete
+        //concrete method
         public string PayBill(string PayId)
         {
             return "Transaction having PayId " + PayId + " was successful";
